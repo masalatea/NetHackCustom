@@ -41,6 +41,7 @@ COPY docker/NetHack-3.6.7-custom/src/pickup.c /NetHack-3.6.7/src/
 COPY docker/NetHack-3.6.7-custom/src/restore.c /NetHack-3.6.7/src/
 COPY docker/NetHack-3.6.7-custom/src/zap.c /NetHack-3.6.7/src/
 COPY docker/NetHack-3.6.7-custom/src/pray.c /NetHack-3.6.7/src/
+# COPY docker/NetHack-3.6.7-custom/src/potion.c /NetHack-3.6.7/src/
 COPY docker/NetHack-3.6.7-custom/sys/unix/unixmain.c /NetHack-3.6.7/sys/unix/
 #COPY docker/NetHack-3.6.7-custom/sys/share/pcmain.c /NetHack-3.6.7/sys/share/
 
